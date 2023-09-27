@@ -1,256 +1,282 @@
-/* inicio*/
+/*index*/
 .index {
-    background-color: #ffece2;
-    
-}
-
-.titulo1 {
-    font-family: 'Fuggles', cursive;
-    font-size: 100px;
-    color: black;
-    display: grid;
-    grid-area: 3 / 2 / 4 / 5
-    
-}
-
-.nav-list {
-    color: black;
-    background-color: #ffece2; 
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: center; 
-    align-items: center;
-    padding: 10px;
-    position: relative;
-
-}
-
-.index .nav-list img {
-    margin-right: 1700px;
-    width: 100px;
-    height: 100px;
-    display: grid;
-}
-
-.nav-list img { 
-    margin: 1px 100px 1px 400px;
-    border-radius: 50%;
-    z-index: 2;
-    margin-right: 6px;
-}
-
-ul {
-    list-style-type: none;
-    display: flex;
-    gap: 100px;
-    margin: 0;
-    padding: 0;
-    z-index: 2;
-}
-
-.container-fluid {
-    background-color: #ffece2;
-}
-
-.container-fluid ul li a {
-    text-decoration: none;
-    color: black;
-    margin-top: 0;
-    border: 2px solid black;
-    padding: 5px 10px;
-    margin: 5px;
-    border-radius: 5px;
-    display: inline-block;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.img-index {
-    width: 100%; 
-    height: auto; 
-    display: flex; 
-    justify-content: center; 
-    align-items: center;
-    display: grid;
-grid-area: 5 / 2 / 9 / 5;
-}
-.carousel-inner .img{
-    width: 650px;
-    height: auto;
-    max-width: 100%;
-
-}
-/*nosotros*/
-.nosotros {
-    background-color: #ffece2;
-}
-
-.nosotros .nav-list img {
-    margin-right: 1700px;
-    width: 100px;
-    height: 100px;
-    display: grid;
-}
-.familia{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 0.3fr repeat(2, 1fr) 0.3fr repeat(3, 1fr);
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
- } 
-.imagen1-nosotros {
-    width: 400px;
-    height: 600px;
-    z-index: 1;
-    display: grid;
-    grid-area: 2 / 1 / 4 / 3;
-    border: 2px black solid;
-    margin: auto;
-}
-
-p {
-    color: black;
-    font-size: 25px;
-    font-family: 'Sedgwick Ave Display', cursive;
-    margin: auto;
-    display: grid;
-    grid-area: 2 / 3 / 4 / 5;
-}
-
-/*eventos*/
-.eventos{
-    background-color: #ffece2;
-}
-.eventos .nav-list img {
-    margin-right: 1700px;
-    width: 100px;
-    height: 100px;
-    display: grid;
-}
-.titulo2{
-    font-family: 'Fuggles', cursive;
-    font-size: 75px;
-    color: black;
-    margin-top: 10px;
-    text-align: center;
-
-}
-.titulo3{
-    font-family: 'Fuggles', cursive;
-    font-size: 50px;
-    color: black;
-}
-.titulo4{
-    font-family: 'Fuggles', cursive;
-    font-size: 50px;
-    color: black;
-}
-.eventos-img{
-    width: 400px;
-    height: 600px;
-    z-index: 1;
-    margin: auto;
-    
-}
-
-/*galeria*/
-.galeria {
-
-    background-color: #ffece2;
-
-        
+    background-color : #ffece2;
     }
-
-.galeria .nav-list img {
-        margin-right: 1700px;
-    width: 100px;
-    height: 100px;
-    display: grid;
+    .titulo1 {
+    font-family : 'Fuggles', cursive;
+    font-size : 100px;
+    color : black;
+    display : grid;
+    grid-area : 3 / 2 / 4 / 5;
     }
+    .nav-list {
+    color : black;
+    background-color : #ffece2;
+    display : flex;
+    flex-wrap : wrap;
+    justify-content : center;
+    align-items : center;
+    padding : 10px;
+    position : relative;
+    }
+    .nav-list:visited{
+        color: blue;
+    }
+    .index .nav-list img {
+    margin-right : 1700px;
+    width : 100px;
+    height : 100px;
+    display : grid;
+    }
+    .nav-list img {
+    margin : 1px 100px 1px 400px;
+    border-radius : 50%;
+    z-index : 2;
+    margin-right : 6px;
+    }
+    ul {
+    list-style-type : none;
+    display : flex;
+    gap : 100px;
+    margin : 0;
+    padding : 0;
+    z-index : 2;
+    }
+    .container-fluid {
+    background-color : #ffece2;
+    }
+    .container-fluid ul li a {
+    text-decoration : none;
+    color : black;
+    margin-top : 0;
+    border : black solid 2px;
+    padding : 5px 10px;
+    margin : 5px;
+    border-radius : 5px;
+    display : inline-block;
+    transition : background-color 0.3s, color 0.3s;
+    }
+    .img-index {
+    width : 100%;
+    height : auto;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    display : grid;
+    grid-area : 5 / 2 / 9 / 5;
+    }
+    .carousel-inner .img {
+    width : 650px;
+    height : auto;
+    max-width : 100%;
+    }
+    /*nosotros*/
+    .nosotros {
+    background-color : #ffece2;
+    }
+    .nosotros .nav-list img {
+    margin-right : 1700px;
+    width : 100px;
+    height : 100px;
+    display : grid;
+    }
+    .familia {
+    display : grid;
+    grid-template-columns : repeat(4,1fr);
+    grid-template-rows : 0.3fr repeat(2,1fr) 0.3fr repeat(3,1fr);
+    column-gap : 5px;
+    row-gap : 5px;
+    }
+    .imagen1-nosotros {
+    width : 400px;
+    height : 600px;
+    z-index : 1;
+    display : grid;
+    grid-area : 2 / 1 / 4 / 3;
+    border : black solid 2px;
+    margin : auto;
+    }
+    p {
+    color : black;
+    font-size : 25px;
+    font-family : 'Sedgwick Ave Display', cursive;
+    margin : auto;
+    display : grid;
+    grid-area : 2 / 3 / 4 / 5;
+    }
+    /*eventos*/
+    .eventos {
+    background-color : #ffece2;
+    }
+    .eventos .nav-list img {
+    margin-right : 1700px;
+    width : 100px;
+    height : 100px;
+    display : grid;
+    }
+    .titulo2 {
+    font-family : 'Fuggles', cursive;
+    font-size : 75px;
+    color : black;
+    margin-top : 10px;
+    text-align : center;
+    }
+    .titulo3 {
+    font-family : 'Fuggles', cursive;
+    font-size : 50px;
+    color : black;
+    }
+    .titulo4 {
+    font-family : 'Fuggles', cursive;
+    font-size : 50px;
+    color : black;
+    }
+    .eventos-img {
+    width : 400px;
+    height : 600px;
+    z-index : 1;
+    margin : auto;
+    }
+    /*galeria*/
+    .galeria {
+    background-color : #ffece2;
+    }
+    .galeria .nav-list img {
+    margin-right : 1700px;
+    width : 100px;
+    height : 100px;
+    display : grid;
+    }
+    .recuerdos .img{
+        width: 200px; /* Tamaño inicial */
+    transition: transform 0.3s; 
+    cursor: pointer; 
+}
 
     .recuerdos {
-        display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
+    display : grid;
+    grid-template-columns : repeat(3,1fr);
+    grid-template-rows : repeat(2,1fr);
+    column-gap : 5px;
+    row-gap : 5px;
     }
+    .img.zoomed {
+        width: 600px; /* Tamaño ampliado */
+    }
+    .img-1 {
+    width : 600px;
+    height : 700px;
+    grid-area : 1 / 1 / 2 / 2;
+    height: auto;
+    transition: transform 0.3s; 
+    cursor: pointer;
 
-.img-1 {
-    width: 600px;
-    height: 700px;
-     grid-area: 1 / 1 / 2 / 2;
-     }
-.img-2 { 
-    grid-area: 1 / 2 / 2 / 3;
-    width: 600px;
-    height: 700px; 
+    }
+    .img-2 {
+    grid-area : 1 / 2 / 2 / 3;
+    width : 600px;
+    height : 700px;
+    }
+    .img-3 {
+    grid-area : 1 / 3 / 2 / 4;
+    width : 600px;
+    height : 700px;
+    }
+    .img-4 {
+    grid-area : 2 / 1 / 3 / 2;
+    width : 600px;
+    height : 700px;
+    }
+    .img-5 {
+    grid-area : 2 / 2 / 3 / 3;
+    width : 600px;
+    max-width : 100%;
+    height : 700px;
+    }
+    .img-6 {
+    grid-area : 2 / 3 / 3 / 4;
+    width : 600px;
+    height : 700px;
+    }
+    .nuestro-salon {
+    display : grid;
+    grid-template-columns : repeat(3,1fr);
+    grid-template-rows : repeat(3,1fr);
+    column-gap : 5px;
+    row-gap : 5px;
+    }
+    .nuestro-salon .img-7 {
+    grid-area : 1 / 1 / 2 / 2;
+    width : 600px;
+    height : 700px;
+    }
+    .nuestro-salon .img-8 {
+    grid-area : 1 / 2 / 2 / 3;
+    width : 600px;
+    height : 700px;
+    }
+    .nuestro-salon .img-9 {
+    grid-area : 1 / 3 / 2 / 4;
+    width : 600px;
+    height : 700px;
+    }
+    .nuestro-salon .img-10 {
+    grid-area : 2 / 1 / 3 / 2;
+    width : 600px;
+    height : 700px;
+    }
+    .nuestro-salon .img-11 {
+    grid-area : 2 / 2 / 3 / 3;
+    width : 600px;
+    height : 700px;
+    }
+    .nuestro-salon .img-12 {
+    grid-area : 2 / 3 / 3 / 4;
+    width : 600px;
+    height : 700px;
+    }
+    .recuerdos-p {
+    margin : 20px 0 20px 35px;
+    }
+    .nuestro-salon-p {
+    margin : 20px 0 20px 35px;
+    }
+    /*contacto*/
+    .contacto {
+        background-color : #ffece2;
+        }
+        .contacto .nav-list img {
+        margin-right : 1700px;
+        width : 100px;
+        height : 100px;
+        }
+ .img-insta {
+        width: 300px;
+        height: 600px;
+        border: black solid 5px;
+        margin-right: 10px;
+        }
+ .map {
+        width : 600px;
+        height : 300px;
+        border : black solid 2px;
+        margin-left: 10px;
+        }
+ 
+.wpp {
+    width: 100px;
+    height: 300px;
+    position: fixed;
+    bottom: 20px;
+    left: calc(50% + 10cm);
+    transform: translateX(-50%);
 }
-.img-3 { 
-    grid-area: 1 / 3 / 2 / 4; 
-    width: 600px;
-    height: 700px;
-}
-.img-4 { 
-    grid-area: 2 / 1 / 3 / 2;
-    width: 600px;
-    height: 700px;
- }
-.img-5 { 
-    grid-area: 2 / 2 / 3 / 3;
-    width: 600px; max-width: 100%;
-    height: 700px; 
-}
-.img-6 { 
-    grid-area: 2 / 3 / 3 / 4;
-    width: 600px;
-    height: 700px;
-}
-
-.nuestro-salon{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
-    
-}
-.nuestro-salon .img-7{
-    grid-area: 1 / 1 / 2 / 2;
-    width: 600px;
-    height: 700px;
-}
-.nuestro-salon .img-8{
-    grid-area: 1 / 2 / 2 / 3;
-    width: 600px;
-    height: 700px;
-}
-.nuestro-salon .img-9{
-    grid-area: 1 / 3 / 2 / 4;
-    width: 600px;
-    height: 700px;
-}
-.nuestro-salon .img-10{
-    grid-area: 2 / 1 / 3 / 2;
-    width: 600px;
-    height: 700px;
-}
-.nuestro-salon .img-11{
-    grid-area: 2 / 2 / 3 / 3;
-    width: 600px;
-    height: 700px;
-}
-.nuestro-salon .img-12{
-    grid-area: 2 / 3 / 3 / 4;
-    width: 600px;
-    height: 700px;
-}
-/*contacto*/
-
-.contacto{
-    background-color: #ffece2;
-}
-
-/*footer*/
-.footer .p {
-    font-size: 15px;
-}
+      
+ .cuerpo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        }
+ .footer .p {
+        font-size : 15px;
+        }
