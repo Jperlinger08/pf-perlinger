@@ -1,3 +1,41 @@
-
+.index {
+  background-color: #FADBD8;
+}
+.index .titulo1 {
+  font-size: 10 rem;
+  color: #F1C40F;
+  display: flex;
+  align-items: center;
+}
+.index .nav-list img {
+  width: 150px;
+  border-radius: 50%;
+  z-index: 2;
+  margin-right: 10px;
+}
+.index .navegacion-menu {
+  color: black;
+  border-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  margin-left: 900px;
+  background-color: #BB8FCE;
+}
+.index .navegacion-menu .ul {
+  list-style-type: none;
+  display: flex;
+  gap: 100px;
+  z-index: 2;
+}
+.index .navegacion-menu .ul li a {
+  text-decoration: none;
+  color: black;
+  margin-top: 0;
+  border: 2px solid black;
+  display: inline-block;
+  transition: backround-color 0.3s, color 0.3s;
+}
 
 /*# sourceMappingURL=style.css.map */
