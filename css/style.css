@@ -122,6 +122,64 @@
   grid-area: 2/3/4/5;
 }
 
+.eventos {
+  background-color: #FADBD8;
+}
+.eventos .nav-list img {
+  width: 150px;
+  border-radius: 50%;
+  z-index: 2;
+  margin-right: 10px;
+}
+.eventos .navegacion-menu {
+  color: black;
+  border-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  margin-left: 900px;
+  background-color: #BB8FCE;
+}
+.eventos .navegacion-menu .ul {
+  list-style-type: none;
+  display: flex;
+  gap: 100px;
+  z-index: 2;
+}
+.eventos .navegacion-menu .ul li a {
+  text-decoration: none;
+  color: black;
+  margin-top: 0;
+  border: 2px solid black;
+  display: inline-block;
+  transition: backround-color 0.3s, color 0.3s;
+  padding: 5px 10px;
+  margin: 5PX;
+}
+.eventos .titulo2 {
+  font-size: 5 rem;
+  font-family: "serif, cursive";
+  color: black;
+  margin: 30px 600px 15px 500px;
+}
+.eventos .titulo2 .titulo3 {
+  font-size: 5 rem;
+  font-family: "serif, cursive";
+  color: black;
+}
+.eventos .titulo2 .eventos-img {
+  z-index: 1;
+  margin: auto;
+  height: 400px;
+  width: 200px;
+}
+.eventos .titulo2 .titulo4 {
+  font-size: 5 rem;
+  font-family: "serif, cursive";
+  color: black;
+}
+
 .galeria {
   background-color: #FADBD8;
 }
