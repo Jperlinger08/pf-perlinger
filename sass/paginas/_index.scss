@@ -53,12 +53,14 @@
         height: $height-img-v;
         display: flex;
         justify-content: center;
+        margin: 10px 10px 10px 300px
     }
         .imagen2{
         width: $width-img-h;
         min-height: $height-img-h;
         display: flex;
         justify-content: center;
+        margin: auto;
     }
      }
 

@@ -1,0 +1,54 @@
+.contacto{
+    background-color: $color-fondo ;
+    .nav-list{
+        img{
+        width: $pixeles-logo;
+        border-radius: $border-radius-logo;
+        z-index: 2;
+         margin-right: 10px;
+         }
+     }
+    .navegacion-menu{
+        color: black;
+        border-color: black;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+         height: 100%;
+         margin-left: 900px;
+        background-color: $color-fondo-naveacion;
+         .ul{
+            list-style-type: none;
+            display: flex;
+            gap: 100px;
+            z-index: 2;
+         }
+         .ul li a {
+            text-decoration: none;
+            color: $color-letra;
+            margin-top: 0;
+            border: $borde-navegacion;
+            display: inline-block;
+            transition: $transicion-navegacion;
+            padding: 5px 10px ;
+            margin: 5PX; 
+
+         }
+    }
+    .cuerpo{
+         .img-insta {
+                width: 300px;
+                height: 600px;
+                border: black solid 5px;
+                margin: 20px 100px 10px 500px;
+                }
+        }
+        .map{
+            width: 600px;
+            height: 300px;
+            border: black solid 5px;
+            margin: 20px 100px 10px 500px;
+            display: inline-flex;
+            }
+}
+    
