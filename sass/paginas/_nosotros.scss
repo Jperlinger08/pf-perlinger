@@ -34,10 +34,33 @@
             transition: $transicion-navegacion;
          }
       }
-      .imagen1-nosotros{
-        
+      .familia{
+        display: grid;
+         grid-template-columns: repeat(4, 1fr);
+         grid-template-rows: 0.3fr repeat(2, 1fr) 0.3fr repeat(3, 1fr);
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+
+        .imagen1-nosotros{
+        width: $width-img-v;
+        height: $height-img-v;
+        border: 1px solid black;
+        z-index: 1;
+        display: grid;
+        grid-area: 2 / 1 / 4 / 3;
+        margin: 10px 1px 1px 20px ;
+
       }
-    
+      p{
+            color: $color-letra;
+            font-size: $font-texto-nosotros;
+            font-family: $font-family-texto;
+            display: grid;
+            grid-area: 2 / 3 / 4 / 5;
+      }
+
+
+    }  
 
 
  }
