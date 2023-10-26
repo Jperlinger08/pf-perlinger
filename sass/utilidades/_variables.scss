@@ -1,5 +1,5 @@
 //colores//
-$color-fondo: #FADBD8;
+$color-fondo: rgb(189, 104, 118) ;
 $color-letra: black ;
 $color-frase: #F1C40F;
 $color-fondo-naveacion: #BB8FCE;
@@ -9,7 +9,7 @@ $color-fondo-naveacion: #BB8FCE;
 
 $font-titulo: 15 rem;
 $font-texto: 5 rem;
-$font-frase: 10 rem;
+$font-frase: 10 rem; 
 $font-texto-nosotros: 30px ;
 
 //tamaño de logo//
@@ -18,14 +18,14 @@ $pixeles-logo: 150px;
 $margin-logo:900px;
 
 //tamaño imagenes verticales//
-$width-img-v: 400px;
-$height-img-v:600px;
+$width-img-v: 600px;
+$height-img-v:800px;
 
 
 //tamaño imagenes horizontales//
 
-$width-img-h: 600px;
-$height-img-h: 700px;
+$width-img-h:400px;
+$height-img-h: 800px;
 
 //tamaño imagenes galeria//
 
@@ -33,8 +33,8 @@ $width-img-galeria: 500px;
 $height-img-galeria: 600px;
 
 //tamaño imagenes eventos//
-$width-img-eventos: 200px;
-$height-img-eventos: 400px;
+$width-img-eventos: 400px;
+$height-img-eventos: 800px;
 
 //letras//
 

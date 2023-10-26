@@ -3,3 +3,13 @@
         justify-content: space-evenly;
         align-items: center;
 }
+
+@mixin imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 0px 200px ;
+    height: 10%;
+    width: 10%;
+    border: black solid 1px;
+}

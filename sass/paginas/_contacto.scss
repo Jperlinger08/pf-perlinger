@@ -34,19 +34,26 @@
          }
     }
     .cuerpo{
-         .img-insta {
-                width: 300px;
-                height: 600px;
-                border: black solid 5px;
-                margin: 20px 100px 10px 500px;
-                }
+        display: grid;
+        grid-template-columns: 1fr 0.05fr 1fr;
+        grid-template-rows: 1fr 0.10fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        .instagram{
+            display: grid;
+            grid-area: 1 / 1 / 2 / 2;
+            height: 200px;
+            width: 100px;
         }
         .map{
-            width: 600px;
-            height: 300px;
-            border: black solid 5px;
-            margin: 20px 100px 10px 500px;
-            display: inline-flex;
-            }
+            display: grid;
+            grid-area: 1 / 3 / 2 / 4;
+            height: 100px;
+            width: 300px;
+        }
+        .map{
+            display: grid;
+            grid-area: 2 / 3 / 3 / 4;
 }
-    
+}
+}
