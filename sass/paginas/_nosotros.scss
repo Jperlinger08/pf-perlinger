@@ -55,6 +55,8 @@
             font-family: $font-family-texto;
             display: grid;
             grid-area: 2 / 3 / 4 / 5;
+            animation-duration: 3s;
+            animation-name: slidein;
       }
 
 

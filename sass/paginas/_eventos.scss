@@ -1,60 +1,63 @@
-.eventos{
+.eventos {
     background-color: $color-fondo ;
     .nav-list{
         img{
-        width: $pixeles-logo;
-        border-radius: $border-radius-logo;
-        z-index: 2;
-         margin-right: 10px;
-         }
-     }
-    .navegacion-menu{
-        color: black;
-        border-color: black;
-        @include nav-menu;
-         height: 100%;
-         margin-left: 900px;
-        background-color: $color-fondo-naveacion;
-         .ul{
-            list-style-type: none;
-            display: flex;
-            gap: 100px;
+            width: $pixeles-logo;
+            border-radius: $border-radius-logo;
             z-index: 2;
+             margin-right: 10px;
+             }
          }
-         .ul li a {
-            text-decoration: none;
-            color: $color-letra;
-            margin-top: 0;
-            border: $borde-navegacion;
-            display: inline-block;
-            transition: $transicion-navegacion;
-            padding: 5px 10px ;
-            margin: 5PX; 
-
-         }
-     }
-   .titulo2{
-    font-size: $font-texto;
-    font-family: $font-family-texto;
-    color: $color-letra;
-    margin: 30px 600px 15px 500px  ;
-    .titulo3{
-        font-size: $font-texto;
-        font-family: $font-family-texto;
-        color: $color-letra;
-    }
-    .eventos-img{
-        z-index : 1;
-        margin : auto;
-        height: 100%;
-        width: 100%;
-    }
-    .titulo4{
-        font-size: $font-texto;
-        font-family: $font-family-texto;
-        color: $color-letra;
-    }
-
+    .navegacion-menu{
+            color: black;
+            border-color: black;
+            @include nav-menu;
+             height: 100%;
+             margin-left: 900px;
+            background-color: $color-fondo-naveacion;
+             .ul{
+                list-style-type: none;
+                display: flex;
+                gap: 100px;
+                z-index: 2;
+             }
+             .ul li a {
+                text-decoration: none;
+                color: $color-letra;
+                margin-top: 0;
+                border: $borde-navegacion;
+                display: inline-block;
+                transition: $transicion-navegacion;
+                padding: 5px 10px ;
+                margin: 5PX; 
     
-   }
-}
+             }
+         }
+        .titulo2{
+        font-size: $font-texto;
+        font-family: $font-family-texto;
+        color: $color-letra;
+        @include titulo-evento
+       }
+        .titulo3{
+            font-size: $font-texto;
+            font-family: $font-family-texto;
+            color: $color-letra;
+        }
+        .eventos-img{
+           margin: auto;
+         height: auto ;
+         width: auto;
+        }
+        .titulo4{
+            font-size: $font-texto;
+            font-family: $font-family-texto;
+            color: $color-letra;
+        }
+    .img-1 .img-2 .img3{
+        height: 100px;
+        width: 200px;
+    }
+        
+       }
+    

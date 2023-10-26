@@ -8,8 +8,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0px 0px 0px 200px ;
-    height:50px ;
-    width: 25 px;
+    margin: 0px 500px 0px 200px ;
+    height: 40%;
+    width: 40%;
     border: black solid 1px;
+}
+
+@mixin titulo-evento{
+    margin: 10px 650px 10px 500px ;
 }
