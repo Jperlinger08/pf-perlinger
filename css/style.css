@@ -7,7 +7,17 @@
     font-size: "Sedgwick Ave Display", cursive;
     justify-content: center;
     margin: 30px 250px 15px 300px;
-    border: 3px solid red; }
+    border: 3px solid red;
+    animation-duration: 3s;
+    animation-name: slidein; }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
   .index .nav-list img {
     width: 150px;
     border-radius: 50%;
@@ -102,7 +112,17 @@
       font-size: 30px;
       font-family: "serif, cursive";
       display: grid;
-      grid-area: 2 / 3 / 4 / 5; }
+      grid-area: 2 / 3 / 4 / 5;
+      animation-duration: 3s;
+      animation-name: slidein; }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
 
 .eventos {
   background-color: #bd6876; }
